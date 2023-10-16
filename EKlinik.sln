@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{633067FB-E758-461E-B51C-B1784939E574}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.API", "Services\Product\Product.API\Product.API.csproj", "{B354DEFC-A7B2-43D5-B6D2-31BA2CA5B6A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obat.API", "Services\Product\Product.API\Obat.API.csproj", "{B354DEFC-A7B2-43D5-B6D2-31BA2CA5B6A0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Treatment", "Treatment", "{ECDA3B02-9279-4710-BF8E-BC9E5F975A8E}"
 EndProject
@@ -23,11 +23,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Services\Or
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{17CD784B-9B17-4DB2-A6A0-0D254E31EF01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Core", "Services\Product\Product.Core\Product.Core.csproj", "{7E7738E8-EA44-4AB7-A18B-50CC133834AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obat.Core", "Services\Product\Product.Core\Obat.Core.csproj", "{7E7738E8-EA44-4AB7-A18B-50CC133834AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Application", "Services\Product\Product.Application\Product.Application.csproj", "{004BF96F-18F5-4DCE-AD5C-9F1916F3BA18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obat.Application", "Services\Product\Product.Application\Obat.Application.csproj", "{004BF96F-18F5-4DCE-AD5C-9F1916F3BA18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Infrastructure", "Services\Product\Product.Infrastructure\Product.Infrastructure.csproj", "{A27E3805-D2E5-4CEE-B362-F83230216E15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obat.Infrastructure", "Services\Product\Product.Infrastructure\Obat.Infrastructure.csproj", "{A27E3805-D2E5-4CEE-B362-F83230216E15}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe.Core", "Services\Treatment\Recipe.Core\Recipe.Core.csproj", "{3F2F71AC-E8ED-4F79-9F19-1DC277B171B9}"
 EndProject

@@ -1,0 +1,252 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.API\\Obat.API.csproj": {}
+  },
+  "projects": {
+    "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.API\\Obat.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.API\\Obat.API.csproj",
+        "projectName": "Obat.API",
+        "projectPath": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.API\\Obat.API.csproj",
+        "packagesPath": "C:\\Users\\alila\\.nuget\\packages\\",
+        "outputPath": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alila\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Application\\Obat.Application.csproj": {
+                "projectPath": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Application\\Obat.Application.csproj"
+              },
+              "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Infrastructure\\Obat.Infrastructure.csproj": {
+                "projectPath": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Infrastructure\\Obat.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Application\\Obat.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Application\\Obat.Application.csproj",
+        "projectName": "Obat.Application",
+        "projectPath": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Application\\Obat.Application.csproj",
+        "packagesPath": "C:\\Users\\alila\\.nuget\\packages\\",
+        "outputPath": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alila\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Core\\Obat.Core.csproj": {
+                "projectPath": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Core\\Obat.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Core\\Obat.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Core\\Obat.Core.csproj",
+        "projectName": "Obat.Core",
+        "projectPath": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Core\\Obat.Core.csproj",
+        "packagesPath": "C:\\Users\\alila\\.nuget\\packages\\",
+        "outputPath": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alila\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Infrastructure\\Obat.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Infrastructure\\Obat.Infrastructure.csproj",
+        "projectName": "Obat.Infrastructure",
+        "projectPath": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Infrastructure\\Obat.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\alila\\.nuget\\packages\\",
+        "outputPath": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alila\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Application\\Obat.Application.csproj": {
+                "projectPath": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Application\\Obat.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

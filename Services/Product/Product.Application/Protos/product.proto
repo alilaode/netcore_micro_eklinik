@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "Product.Grpc.Protos";
+
+service DiscountProtoService {
+  rpc GetProduct(GetProductRequest) returns (MedicineModel);
+}
+
+message GetProductRequest {
+  string name = 1;
+}
+
+message MedicineModel {
+  string name = 1;
+  int32 price = 2;
+}
+
