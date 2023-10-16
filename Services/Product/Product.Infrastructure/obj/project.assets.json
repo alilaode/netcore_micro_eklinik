@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Product.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Product.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Product.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Product.Application.dll": {}
+        }
+      },
+      "Product.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Product.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Product.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Product.Application/1.0.0": {
+      "type": "project",
+      "path": "../Product.Application/Product.Application.csproj",
+      "msbuildProject": "../Product.Application/Product.Application.csproj"
+    },
+    "Product.Core/1.0.0": {
+      "type": "project",
+      "path": "../Product.Core/Product.Core.csproj",
+      "msbuildProject": "../Product.Core/Product.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Product.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\alila\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Application\\Product.Application.csproj": {
+              "projectPath": "D:\\test\\netcore\\EKlinik\\Services\\Product\\Product.Application\\Product.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
