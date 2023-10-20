@@ -8,9 +8,9 @@
 using grpc = global::Grpc.Core;
 
 namespace Product.Grpc.Protos {
-  public static partial class DiscountProtoService
+  public static partial class ProductProtoService
   {
-    static readonly string __ServiceName = "DiscountProtoService";
+    static readonly string __ServiceName = "ProductProtoService";
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
@@ -64,9 +64,9 @@ namespace Product.Grpc.Protos {
       get { return global::Product.Grpc.Protos.ProductReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of DiscountProtoService</summary>
-    [grpc::BindServiceMethod(typeof(DiscountProtoService), "BindService")]
-    public abstract partial class DiscountProtoServiceBase
+    /// <summary>Base class for server-side implementations of ProductProtoService</summary>
+    [grpc::BindServiceMethod(typeof(ProductProtoService), "BindService")]
+    public abstract partial class ProductProtoServiceBase
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Product.Grpc.Protos.MedicineModel> GetProduct(global::Product.Grpc.Protos.GetProductRequest request, grpc::ServerCallContext context)
@@ -79,7 +79,7 @@ namespace Product.Grpc.Protos {
     /// <summary>Creates service definition that can be registered with a server</summary>
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(DiscountProtoServiceBase serviceImpl)
+    public static grpc::ServerServiceDefinition BindService(ProductProtoServiceBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_GetProduct, serviceImpl.GetProduct).Build();
@@ -90,7 +90,7 @@ namespace Product.Grpc.Protos {
     /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, DiscountProtoServiceBase serviceImpl)
+    public static void BindService(grpc::ServiceBinderBase serviceBinder, ProductProtoServiceBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_GetProduct, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Product.Grpc.Protos.GetProductRequest, global::Product.Grpc.Protos.MedicineModel>(serviceImpl.GetProduct));
     }

@@ -7,33 +7,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{633067FB-E758-461E-B51C-B1784939E574}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obat.API", "Services\Product\Product.API\Obat.API.csproj", "{B354DEFC-A7B2-43D5-B6D2-31BA2CA5B6A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.API", "Services\Product\Product.API\Product.API.csproj", "{B354DEFC-A7B2-43D5-B6D2-31BA2CA5B6A0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Treatment", "Treatment", "{ECDA3B02-9279-4710-BF8E-BC9E5F975A8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe.API", "Services\Treatment\Recipe.API\Recipe.API.csproj", "{C0968EB4-042F-4DB8-B36F-DF09F35A2712}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe.API", "Services\Treatment\Recipe.API\Recipe.API.csproj", "{C0968EB4-042F-4DB8-B36F-DF09F35A2712}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{257FD059-F9AE-4BCC-9CFE-404BD97076F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Core", "Services\Ordering\Ordering.Core\Ordering.Core.csproj", "{29665603-8A45-47BF-BA96-C6B61E16E5EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Core", "Services\Ordering\Ordering.Core\Ordering.Core.csproj", "{29665603-8A45-47BF-BA96-C6B61E16E5EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{98B92331-FDC7-4D09-8F8E-182DBDC02F94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{98B92331-FDC7-4D09-8F8E-182DBDC02F94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{5BE8AC3E-BF50-4C0D-BB18-0B30EA17B009}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{5BE8AC3E-BF50-4C0D-BB18-0B30EA17B009}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{17CD784B-9B17-4DB2-A6A0-0D254E31EF01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{17CD784B-9B17-4DB2-A6A0-0D254E31EF01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obat.Core", "Services\Product\Product.Core\Obat.Core.csproj", "{7E7738E8-EA44-4AB7-A18B-50CC133834AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Core", "Services\Product\Product.Core\Product.Core.csproj", "{7E7738E8-EA44-4AB7-A18B-50CC133834AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obat.Application", "Services\Product\Product.Application\Obat.Application.csproj", "{004BF96F-18F5-4DCE-AD5C-9F1916F3BA18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Application", "Services\Product\Product.Application\Product.Application.csproj", "{004BF96F-18F5-4DCE-AD5C-9F1916F3BA18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obat.Infrastructure", "Services\Product\Product.Infrastructure\Obat.Infrastructure.csproj", "{A27E3805-D2E5-4CEE-B362-F83230216E15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Infrastructure", "Services\Product\Product.Infrastructure\Product.Infrastructure.csproj", "{A27E3805-D2E5-4CEE-B362-F83230216E15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe.Core", "Services\Treatment\Recipe.Core\Recipe.Core.csproj", "{3F2F71AC-E8ED-4F79-9F19-1DC277B171B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe.Core", "Services\Treatment\Recipe.Core\Recipe.Core.csproj", "{3F2F71AC-E8ED-4F79-9F19-1DC277B171B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe.Application", "Services\Treatment\Recipe.Application\Recipe.Application.csproj", "{AD4ACBFC-072B-4E97-ACA4-82BE00234112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe.Application", "Services\Treatment\Recipe.Application\Recipe.Application.csproj", "{AD4ACBFC-072B-4E97-ACA4-82BE00234112}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe.Infrastructure", "Services\Treatment\Recipe.Infrastructure\Recipe.Infrastructure.csproj", "{B687FDA1-C1FC-4AE0-B6C9-B6AB6CB3C9A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe.Infrastructure", "Services\Treatment\Recipe.Infrastructure\Recipe.Infrastructure.csproj", "{B687FDA1-C1FC-4AE0-B6C9-B6AB6CB3C9A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

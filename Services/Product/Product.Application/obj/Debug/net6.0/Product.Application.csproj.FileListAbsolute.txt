@@ -1,0 +1,15 @@
+D:\test\netcore\EKlinik\Services\Product\Product.Application\obj\Debug\net6.0\Product.Application.csproj.AssemblyReference.cache
+D:\test\netcore\EKlinik\Services\Product\Product.Application\obj\Debug\net6.0\Product.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\test\netcore\EKlinik\Services\Product\Product.Application\obj\Debug\net6.0\Product.Application.AssemblyInfoInputs.cache
+D:\test\netcore\EKlinik\Services\Product\Product.Application\obj\Debug\net6.0\Product.Application.AssemblyInfo.cs
+D:\test\netcore\EKlinik\Services\Product\Product.Application\obj\Debug\net6.0\Product.Application.csproj.CoreCompileInputs.cache
+D:\test\netcore\EKlinik\Services\Product\Product.Application\bin\Debug\net6.0\Product.Application.deps.json
+D:\test\netcore\EKlinik\Services\Product\Product.Application\bin\Debug\net6.0\Product.Application.dll
+D:\test\netcore\EKlinik\Services\Product\Product.Application\bin\Debug\net6.0\Product.Application.pdb
+D:\test\netcore\EKlinik\Services\Product\Product.Application\bin\Debug\net6.0\Product.Core.dll
+D:\test\netcore\EKlinik\Services\Product\Product.Application\bin\Debug\net6.0\Product.Core.pdb
+D:\test\netcore\EKlinik\Services\Product\Product.Application\obj\Debug\net6.0\Product.Application.csproj.CopyComplete
+D:\test\netcore\EKlinik\Services\Product\Product.Application\obj\Debug\net6.0\Product.Application.dll
+D:\test\netcore\EKlinik\Services\Product\Product.Application\obj\Debug\net6.0\refint\Product.Application.dll
+D:\test\netcore\EKlinik\Services\Product\Product.Application\obj\Debug\net6.0\Product.Application.pdb
+D:\test\netcore\EKlinik\Services\Product\Product.Application\obj\Debug\net6.0\ref\Product.Application.dll

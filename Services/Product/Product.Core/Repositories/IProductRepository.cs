@@ -12,7 +12,7 @@ namespace Product.Core.Repositories
     {
         Task<Medicine> GetMedicine(string name);
         Task<bool> CreateMedicine(Medicine medicine);
-        Task<bool> UpdateMedicine(Medicine medicine);
-        Task<bool> DeleteMedicine(Medicine name);
+        Task<bool> UpdateMedicine(Medicine medicine, string oldname);
+        Task<bool> DeleteMedicine(string name);
     }
 }

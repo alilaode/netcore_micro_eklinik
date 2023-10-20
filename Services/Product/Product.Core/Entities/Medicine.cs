@@ -9,8 +9,10 @@ namespace Product.Core.Entities
 {
     public class Medicine : EntityBase
     {
+        public string? Id { get; set; }
+
         public string? Name { get; set; }
-        public decimal? Price { get; set; }
+        public int? Price { get; set; }
         
     }
 }

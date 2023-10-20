@@ -25,15 +25,15 @@ namespace Product.Grpc.Protos {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChRQcm90b3MvcHJvZHVjdC5wcm90byIhChFHZXRQcm9kdWN0UmVxdWVzdBIM",
-            "CgRuYW1lGAEgASgJIiwKDU1lZGljaW5lTW9kZWwSDAoEbmFtZRgBIAEoCRIN",
-            "CgVwcmljZRgCIAEoBTJIChREaXNjb3VudFByb3RvU2VydmljZRIwCgpHZXRQ",
-            "cm9kdWN0EhIuR2V0UHJvZHVjdFJlcXVlc3QaDi5NZWRpY2luZU1vZGVsQhaq",
-            "AhNQcm9kdWN0LkdycGMuUHJvdG9zYgZwcm90bzM="));
+            "CgRuYW1lGAEgASgJIjgKDU1lZGljaW5lTW9kZWwSCgoCaWQYASABKAkSDAoE",
+            "bmFtZRgCIAEoCRINCgVwcmljZRgDIAEoBTJHChNQcm9kdWN0UHJvdG9TZXJ2",
+            "aWNlEjAKCkdldFByb2R1Y3QSEi5HZXRQcm9kdWN0UmVxdWVzdBoOLk1lZGlj",
+            "aW5lTW9kZWxCFqoCE1Byb2R1Y3QuR3JwYy5Qcm90b3NiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Product.Grpc.Protos.GetProductRequest), global::Product.Grpc.Protos.GetProductRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Product.Grpc.Protos.MedicineModel), global::Product.Grpc.Protos.MedicineModel.Parser, new[]{ "Name", "Price" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Product.Grpc.Protos.MedicineModel), global::Product.Grpc.Protos.MedicineModel.Parser, new[]{ "Id", "Name", "Price" }, null, null, null, null)
           }));
     }
     #endregion
@@ -263,6 +263,7 @@ namespace Product.Grpc.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public MedicineModel(MedicineModel other) : this() {
+      id_ = other.id_;
       name_ = other.name_;
       price_ = other.price_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -274,8 +275,20 @@ namespace Product.Grpc.Protos {
       return new MedicineModel(this);
     }
 
+    /// <summary>Field number for the "id" field.</summary>
+    public const int IdFieldNumber = 1;
+    private string id_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Id {
+      get { return id_; }
+      set {
+        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
+    public const int NameFieldNumber = 2;
     private string name_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -287,7 +300,7 @@ namespace Product.Grpc.Protos {
     }
 
     /// <summary>Field number for the "price" field.</summary>
-    public const int PriceFieldNumber = 2;
+    public const int PriceFieldNumber = 3;
     private int price_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -313,6 +326,7 @@ namespace Product.Grpc.Protos {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (Id != other.Id) return false;
       if (Name != other.Name) return false;
       if (Price != other.Price) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -322,6 +336,7 @@ namespace Product.Grpc.Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Price != 0) hash ^= Price.GetHashCode();
       if (_unknownFields != null) {
@@ -342,12 +357,16 @@ namespace Product.Grpc.Protos {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Name.Length != 0) {
+      if (Id.Length != 0) {
         output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Name.Length != 0) {
+        output.WriteRawTag(18);
         output.WriteString(Name);
       }
       if (Price != 0) {
-        output.WriteRawTag(16);
+        output.WriteRawTag(24);
         output.WriteInt32(Price);
       }
       if (_unknownFields != null) {
@@ -360,12 +379,16 @@ namespace Product.Grpc.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
+      if (Id.Length != 0) {
         output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Name.Length != 0) {
+        output.WriteRawTag(18);
         output.WriteString(Name);
       }
       if (Price != 0) {
-        output.WriteRawTag(16);
+        output.WriteRawTag(24);
         output.WriteInt32(Price);
       }
       if (_unknownFields != null) {
@@ -378,6 +401,9 @@ namespace Product.Grpc.Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (Id.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
+      }
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
@@ -395,6 +421,9 @@ namespace Product.Grpc.Protos {
     public void MergeFrom(MedicineModel other) {
       if (other == null) {
         return;
+      }
+      if (other.Id.Length != 0) {
+        Id = other.Id;
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
@@ -418,10 +447,14 @@ namespace Product.Grpc.Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
             Name = input.ReadString();
             break;
           }
-          case 16: {
+          case 24: {
             Price = input.ReadInt32();
             break;
           }
@@ -441,10 +474,14 @@ namespace Product.Grpc.Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
             Name = input.ReadString();
             break;
           }
-          case 16: {
+          case 24: {
             Price = input.ReadInt32();
             break;
           }

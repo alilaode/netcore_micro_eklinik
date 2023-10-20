@@ -1,0 +1,5 @@
+D:\test\netcore\EKlinik\Services\Product\Product.Infrastructure\obj\Debug\net6.0\Product.Infrastructure.csproj.AssemblyReference.cache
+D:\test\netcore\EKlinik\Services\Product\Product.Infrastructure\obj\Debug\net6.0\Product.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\test\netcore\EKlinik\Services\Product\Product.Infrastructure\obj\Debug\net6.0\Product.Infrastructure.AssemblyInfoInputs.cache
+D:\test\netcore\EKlinik\Services\Product\Product.Infrastructure\obj\Debug\net6.0\Product.Infrastructure.AssemblyInfo.cs
+D:\test\netcore\EKlinik\Services\Product\Product.Infrastructure\obj\Debug\net6.0\Product.Infrastructure.csproj.CoreCompileInputs.cache
